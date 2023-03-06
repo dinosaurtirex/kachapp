@@ -1,0 +1,4 @@
+requests
+sanic[ext]
+tortoise-orm[asyncpg]
+aerich
