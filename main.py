@@ -5,8 +5,8 @@ from orm.settings import DB_URL, TORTOISE_ORM
 from tortoise.contrib.sanic import register_tortoise
 
 
-app = Sanic("stats-service")
-app.config.OAS = False
+app = Sanic("kachapp")
+app.config.OAS = True
 
 
 # Auth application 
